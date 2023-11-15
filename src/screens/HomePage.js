@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 
-const HomePage = () => {
+const HomePage = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to EnglishEase</Text>
@@ -9,12 +9,12 @@ const HomePage = () => {
 
 {/* (Animal Module) */}
       <TouchableOpacity
-        onPress={() => {
+        onPress={() => { 
           navigation.navigate('AnotherPage');
         }}
       >
         <Image
-          source={require('../assets/images/animal.png')}
+          source={require('../../assets/images/animal.png')}
           style={styles.buttonImage}
         />
       </TouchableOpacity>
@@ -26,7 +26,7 @@ const HomePage = () => {
         }}
       >
         <Image
-          source={require('../assets/images/food.png')}
+          source={require('../../assets/images/food.png')}
           style={styles.buttonImage}
         />
       </TouchableOpacity>
@@ -38,7 +38,7 @@ const HomePage = () => {
         }}
       >
         <Image
-          source={require('../assets/images/bodyparts.png')}
+          source={require('../../assets/images/bodyparts.png')}
           style={styles.buttonImage}
         />
       </TouchableOpacity>
@@ -50,7 +50,7 @@ const HomePage = () => {
         }}
       >
         <Image
-          source={require('../assets/images/numbers.png')}
+          source={require('../../assets/images/numbers.png')}
           style={styles.buttonImage}
         />
       </TouchableOpacity>
@@ -61,11 +61,25 @@ const HomePage = () => {
           }}
         >
           <Image
-            source={require('../assets/images/hangman.png')}
+            source={require('../../assets/images/hangman.png')}
             style={styles.buttonImage}
           />
         </TouchableOpacity>
+         {/* Hangman Module */}
+         <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('Alpha');
+          }}
+        >
+          <Image
+            source={require('../../assets/images/hangman.png')}
+            style={styles.buttonImage}
+          />
+        </TouchableOpacity>
+
         </View>
+
+        
   
   );
 };
