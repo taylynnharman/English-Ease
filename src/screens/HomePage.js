@@ -10,7 +10,7 @@ const HomePage = ({navigation}) => {
 {/* (Animal Module) */}
       <TouchableOpacity
         onPress={() => { 
-          navigation.navigate('AnotherPage');
+          navigation.navigate('Animal');
         }}
       >
         <Image
@@ -22,7 +22,7 @@ const HomePage = ({navigation}) => {
       {/* Food Module */}
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate('AnotherPage2');
+          navigation.navigate('Foody');
         }}
       >
         <Image
@@ -34,7 +34,7 @@ const HomePage = ({navigation}) => {
       {/* BodyParts Module */}
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate('AnotherPage2');
+          navigation.navigate('Body_parts');
         }}
       >
         <Image
@@ -46,7 +46,7 @@ const HomePage = ({navigation}) => {
             {/* Numbers Module */}
             <TouchableOpacity
         onPress={() => {
-          navigation.navigate('AnotherPage2');
+          navigation.navigate('Num');
         }}
       >
         <Image
@@ -65,17 +65,7 @@ const HomePage = ({navigation}) => {
             style={styles.buttonImage}
           />
         </TouchableOpacity>
-         {/* Hangman Module */}
-         <TouchableOpacity
-          onPress={() => {
-            navigation.navigate('Alpha');
-          }}
-        >
-          <Image
-            source={require('../../assets/images/hangman.png')}
-            style={styles.buttonImage}
-          />
-        </TouchableOpacity>
+        
 
         </View>
 
