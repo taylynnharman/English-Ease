@@ -1,19 +1,58 @@
 import React, { useState } from "react";
 import {
 	View,
-	Text,
 	StyleSheet,
-	ScrollView,
-	TouchableHighlight,
 } from "react-native";
 
-const animal_contanier = "";
+
+import FlashcardScreen from "./Flash_Cards";
+
+// const animal_contanier = ["Bird", "Chicken", "Cow"];
+const body_contanier = [
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    // Add more flashcards here
+  ];
+
+  
 
 const Body = ({ navigation }) => {
 
 	return (
 		<View style={styles.container}>
-			<Text>Body</Text>
+			<FlashcardScreen dictonary={body_contanier} />
 		</View>
 	);
 };
