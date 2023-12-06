@@ -57,7 +57,7 @@ const HomePage = ({navigation}) => {
           {/* Hangman Module */}
           <TouchableOpacity
           onPress={() => {
-            navigation.navigate('AnotherPage2');
+            navigation.navigate('Hang');
           }}
         >
           <Image
