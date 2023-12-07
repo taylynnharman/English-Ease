@@ -9,42 +9,22 @@ import {
 
 import FlashcardScreen from "./Flash_Cards";
 
+
+
 // const animal_contanier = ["Bird", "Chicken", "Cow"];
 const body_contanier = [
-    { question: "1", answer: "One" },
-    { question: "2", answer: "Two" },
-    { question: "3", answer: "Three" },
-    { question: "4", answer: "Four" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-	{ question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
-    { question: "question", answer: "answer" },
+    
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	{ question: "1", answer: "One" },
+	
     // Add more flashcards here
   ];
 
