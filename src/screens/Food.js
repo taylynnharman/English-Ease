@@ -7,13 +7,54 @@ import {
 	TouchableHighlight,
 } from "react-native";
 
-const animal_contanier = "";
+import FlashcardScreen from "./Flash_Cards";
 
-const Food = ({ navigation }) => {
+// const animal_contanier = ["Bird", "Chicken", "Cow"];
+const body_contanier = [
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    // Add more flashcards here
+  ];
+
+  
+
+const  Food = ({ navigation }) => {
 
 	return (
 		<View style={styles.container}>
-			<Text>Food</Text>
+			<FlashcardScreen dictonary={body_contanier} />
 		</View>
 	);
 };

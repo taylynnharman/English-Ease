@@ -7,13 +7,54 @@ import {
 	TouchableHighlight,
 } from "react-native";
 
-const animal_contanier = "";
+import FlashcardScreen from "./Flash_Cards";
+
+// const animal_contanier = ["Bird", "Chicken", "Cow"];
+const body_contanier = [
+    { question: "1", answer: "One" },
+    { question: "2", answer: "Two" },
+    { question: "3", answer: "Three" },
+    { question: "4", answer: "Four" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+	{ question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    { question: "question", answer: "answer" },
+    // Add more flashcards here
+  ];
+
+  
 
 const Numbers = ({ navigation }) => {
 
 	return (
 		<View style={styles.container}>
-			<Text>NUmbers</Text>
+			<FlashcardScreen dictonary={body_contanier} />
 		</View>
 	);
 };
