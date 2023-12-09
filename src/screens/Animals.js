@@ -15,9 +15,11 @@ const animal_contanier = [
 	{
         question:
             "https://media.istockphoto.com/id/115962508/photo/zebra.webp?b=1&s=170667a&w=0&k=20&c=SKz_AoanGjCdZg1r-zBS8QZrpz-AxYK22lo5YqUSL-g=",
-        answer: "zebra",
+        answer: "Zebra",
+        
     },
-	{
+	
+    {
         question:
             "https://media.istockphoto.com/id/162718916/photo/brown-tibetan-yak.webp?b=1&s=170667a&w=0&k=20&c=MpYD3yteEnvlWERkmUuI9hTn_-xyGYgXa1pebGNe-yk=",
         answer: "Yak",
