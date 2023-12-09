@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import {
 	View,
-	Text,
 	StyleSheet,
-	ScrollView,
-	TouchableHighlight,
 } from "react-native";
+
 
 import FlashcardScreen from "./Flash_Cards";
 
@@ -29,7 +27,13 @@ const body_contanier = [
     // Add more flashcards here
   ];
 
+<<<<<<< HEAD
 const  Food = ({ navigation }) => {
+=======
+  
+
+const Food = ({ navigation }) => {
+>>>>>>> c808e39204cce7eacd397d84ac0c926d717429c8
 
 	return (
 		<View style={styles.container}>
